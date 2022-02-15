@@ -1,0 +1,258 @@
+/* GLOBAL*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+    color: #30444E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    padding: 0;
+}
+/* CONTAINER */
+.container {
+    max-width: 1160px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* HEADER */
+.main-header {
+    background-color: #fff;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.main-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-logo {
+}
+.site-logo-img {
+    display: flex;
+}
+.sitenav {
+}
+.sitenav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sitenav-item:not(:last-child) {
+    margin-right: 50px;
+}
+.sitenav-link {
+    text-decoration: none;
+    color:rgba(31, 46, 53 0.8);
+}
+.sitenav-link:hover {
+    opacity: 0.8;
+    color: crimson;
+}
+.sitenav-link:active {
+    opacity: 0.6;
+    color: crimson;
+}
+.header-action {
+}
+.action-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.action-item:not(:last-child) {
+    margin-right: 24px;
+}
+.action-link {
+}
+.action-img {
+}
+/* MAIN */
+.site-main {
+}
+.hero {
+    padding-top: 110px;
+    padding-bottom: 162px;
+    background-color:#E5E5E5;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-content {
+}
+.hero-title {
+    color:#1F2E35;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+.hero-text {
+   color:#30444E;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 28px;
+}
+
+span {
+    color: #ee4248;
+}
+
+.hero-button {
+    background-color: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 161px;
+    height: 53px;
+    padding: 12px 32px;
+}
+.button-link {
+    text-decoration: none;
+    color: #fff;
+    list-style-type: none;
+}
+.hero-img {
+}
+/* FEATURES */
+.features {
+    padding-top: 57px;
+    padding-bottom: 63px;
+    background-color: #F6F6F6;
+}
+.features-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features-img {
+    margin-right: 97px;
+}
+.features-content {
+}
+.features-title {
+    color: #1F2E35;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42.78px;
+}
+.features-text {
+}
+/* SALE */
+.sale {
+    padding-top: 20px;
+    padding-bottom: 23px;
+}
+.sale-container {
+ display: flex;
+}
+.main-title {
+    color: #1F2E35;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42.78px;
+    text-align: center;
+}
+.sale-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sale-item:not(:last-child) {
+    margin-right: 53px;
+}
+.sale-img {
+}
+.sale-title {
+    color:  #EE4248;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37.43px;
+}
+.sale-text {
+}
+.sale-button {
+    background-color:#EE4248;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    width: 119px;
+    height: 42px;
+    padding: 8px 16px;
+}
+
+.btn-blue {
+    background: #5042EE;
+}
+
+.btn-pink {
+    background: #EE42A9;
+}
+
+.btn-yellow {
+    background: #FEBA08;
+}
+
+.sale-link {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* FOOTER */
+.site-footer {
+    padding-top: 87px;
+    padding-bottom: 13px;
+    background-color: #fff;
+}
+.site-footer-container {
+}
+
+.footer-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-item:not(:last-child) {
+    margin-right: 47px;
+}
+.site-logo {
+}
+.site-logo-img {
+}
+.footer-title2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21,09px;
+}
+.footer-text {
+}
+.footer-title1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28,13px;
+}
+.footer-button {
+    background-color:#EE4248;
+    width: 1440px; 
+    height: 64px;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.button-link {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+
+}
